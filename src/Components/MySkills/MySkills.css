@@ -1,0 +1,77 @@
+#mySkills{
+    margin-top: 3rem;
+}
+
+#mySkills .generalCont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30vw;
+}
+#mySkills .div-1 {
+    margin-top: 5rem;
+}
+#mySkills .div-1 img {
+    width: 80px;
+}
+
+#mySkills  .why  {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: -22px;
+}
+
+#mySkills .why :nth-child(2) {
+    margin-top: -20px;
+}
+
+#mySkills .why span {
+    color: var(--primary-color);
+}
+
+#mySkills .skills-display {
+    position: relative;
+    transition: all 1s;
+}
+
+#mySkills .skills-display div img {
+    position: absolute;
+    width: 80px;
+}
+
+#mySkills .img-1 {
+    
+}
+
+#mySkills .img-2 {
+    position: absolute;
+    left: -10rem;
+    top: 8rem;
+}
+
+#mySkills .img-3 {
+    position: absolute;
+   top: 19rem;
+   left: -10rem;
+}
+
+
+#mySkills .img-4 {
+    position: absolute;
+   top: 23rem;
+}
+
+#mySkills .img-5  {
+    position: absolute;
+    top: 19rem;
+    left: 10rem;
+ }
+
+#mySkills .img-6  {
+   position: absolute;
+   top: 8rem;
+   left: 10rem;
+}
+
+#mySkills .skills-display:hover {
+    transform: scale(0.9);
+}
