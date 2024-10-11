@@ -4,30 +4,30 @@
     margin-top: 7rem;
 }
 
-.welcome img {
+#hero .welcome img {
     width: 70px;
 }
 
-.tex {
+#hero .tex {
     display: none;
 }
 
-.hero-text {
+#hero .hero-text {
     font-size: 3rem;
     transition: all 2s;
     margin-top: -2rem;
     font-weight: 700;
 }
-.hero-text span {
+#hero .hero-text span {
     color: var(--primary-color);
     font-weight: 700;
 }
 
-.const {
+#hero .const {
     margin-top: -30px;
 }
 
-.group {
+#hero .group {
     display: flex;
     align-items: center;
     position: relative;
@@ -35,11 +35,11 @@
 
 }
 
-.group .img-1 {
+#hero .group .img-1 {
     width: 350px;
 }
 
-.img-2 {
+#hero .img-2 {
     position: absolute;
     top: -3.5rem;
     left: 4px;
@@ -47,23 +47,23 @@
     z-index: 1;
 }   
 
-.follow {
+#hero .follow {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     margin-top: -30px;
 }
-.follow .follow-img {
+#hero .follow-img {
     width: 20px;
 }
-.social-accounts     {
+#hero .social-accounts     {
     display: flex;
     gap: 20px;
     align-items: center;
     flex-direction: column;
 }
 
-.social-accounts img {
+#hero .social-accounts img {
     width: 15px;
 }
