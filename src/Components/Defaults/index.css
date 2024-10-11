@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+:root {
+  --primary-color: #0db760;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.container {
+  padding: 20px 0 0px 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

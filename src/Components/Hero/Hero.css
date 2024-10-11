@@ -1,0 +1,69 @@
+#hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7rem;
+}
+
+.welcome img {
+    width: 70px;
+}
+
+.tex {
+    display: none;
+}
+
+.hero-text {
+    font-size: 3rem;
+    transition: all 2s;
+    margin-top: -2rem;
+    font-weight: 700;
+}
+.hero-text span {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.const {
+    margin-top: -30px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 5vw;
+
+}
+
+.group .img-1 {
+    width: 350px;
+}
+
+.img-2 {
+    position: absolute;
+    top: -3.5rem;
+    left: 4px;
+    width: 18.8em;
+    z-index: 1;
+}   
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: -30px;
+}
+.follow .follow-img {
+    width: 20px;
+}
+.social-accounts     {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-accounts img {
+    width: 15px;
+}
