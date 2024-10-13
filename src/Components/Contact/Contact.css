@@ -1,0 +1,43 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: -50px;
+}
+
+#contact .contact-img  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .contact-img img {
+    width: 80px;
+    margin-bottom: -30px;
+}
+
+#contact .text-1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+
+}
+
+#contact .text-1 span {
+    color: var(--primary-color);
+}
+
+#contact .text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+#contact  .inspires{
+    margin-left: 10rem;
+}
