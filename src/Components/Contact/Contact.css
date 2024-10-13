@@ -41,3 +41,32 @@
 #contact  .inspires{
     margin-left: 10rem;
 }
+
+#contact .contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+    margin-left: -9rem;
+}
+
+#contact .infoDetails {
+    display: flex;
+    gap: 10px;
+}
+
+#contact .infoDetails img {
+    width: 50px;
+}
+
+
+#contact .cont-div {
+    font-size: 15px;
+    margin-top: -12px;
+    align-items: center;
+}
+
+#contact .cont-div  :nth-child(2) {
+    font-weight: 500;
+    margin-top: -10px;
+}

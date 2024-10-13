@@ -15,7 +15,7 @@ const Ratings = () => {
 
     },
     {
-      id:1,
+      id:2,
       wordOne: "Working with CrownDev was a great experience. ",
       wordTwo: "He delivered a modern, functional website that has significantly improved my online presence.",
       wordThree: "Truly impressive work!",
@@ -27,7 +27,7 @@ const Ratings = () => {
     },
 
     {
-      id:1,
+      id:3,
       wordOne: "CrownDev brought my vision to life with a clean, user-friendly website. His expertise and quick turnaround time made the process smooth and stress-free.",
       wordTwo: "I couldn’t be happier with the result!",
       wordThree: "",
