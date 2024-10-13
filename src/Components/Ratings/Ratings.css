@@ -1,0 +1,59 @@
+#ratings{
+    margin-top: 7rem;
+}
+
+#ratings .review-img img {
+    width: 80px;
+    margin-bottom: -25px;
+}
+
+#ratings .text {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#ratings .text .child-2 {
+    margin-top: -23px;
+}
+
+#ratings .word {
+    display: grid;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+#ratings .text .child-2 span {
+    color: var(--primary-color);
+}
+
+#ratings .testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 25px;
+}
+
+#ratings .testi-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#ratings .shape img {
+    width: 80px;
+}
+
+#ratings .person-review {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 8px;
+}
+#ratings .person-review img{
+    width: 35px;    
+}
+
+#ratings .name {
+    font-size: 12px;
+    font-weight: 700;
+}
