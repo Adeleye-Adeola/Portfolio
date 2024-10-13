@@ -29,25 +29,30 @@
     color: var(--primary-color);
 }
 
-#contact .text-2{
+#contact .text-2 P{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-left: 7rem;
     margin-top: -15px;
     font-size: 14px;
+    margin-left: 7.5rem;
 }
 
 #contact  .inspires{
     margin-left: 10rem;
 }
-
-#contact .contactInfo {
+#contact .contactInfo  {
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+    gap: 20vw;
+    margin-left: 15vw;
+}
+#contact .contactInfo .infoDiv{
     display: flex;
     flex-direction: column;
     gap: 3rem;
     margin-top: 5rem;
-    margin-left: -9rem;
+    margin-left: -3rem;
 }
 
 #contact .infoDetails {
@@ -66,7 +71,48 @@
     align-items: center;
 }
 
+#contact .cont-div  :nth-child(1) {
+    color: #92929D;
+}
+
 #contact .cont-div  :nth-child(2) {
     font-weight: 500;
     margin-top: -10px;
+}
+
+
+#contact .form-input {
+    margin-left: -5rem;
+    margin-top:  2rem; 
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+#contact form div{
+    display: flex;
+    gap: 20px;
+
+}
+
+#contact form div input {
+    padding: 10px 2vw 10px 2vw;
+    width: 18vw;
+    height: 1.2rem;
+}
+
+#contact .text-area textarea {
+    padding: 10px 2vw 10px 2vw;
+    width: 42.2vw;
+    height: 7.5rem;
+}
+
+#contact .submit-btn {
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }

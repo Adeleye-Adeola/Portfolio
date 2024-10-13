@@ -24,7 +24,7 @@ const Contact = () => {
   ]
   return (
     <div className='container' id='contact'>
-        <div className='generalCont'>
+      <div className='generalCont'>
             <div>
                 <div className='contact-img'>
                   <img src="/contact.png" alt="" />
@@ -33,11 +33,13 @@ const Contact = () => {
                   <p>Let's Discuss your <span>Project</span></p>
                 </div>
                 <div className='text-2'>
-                <span>Lets's create something bold and unique—turning fresh ideas into a visual experience</span>
-                <span className='inspires'>that inspires and stands out</span>
+                <p>Lets's create something bold and unique—turning fresh ideas into a visual experience</p>
+                <p className='inspires'>that inspires and stands out</p>
                 </div>
-            </div>
+                </div>
+              
             <div className='contactInfo'>
+              <div className='infoDiv'>
               {infoDetails.map((info) => (
                 <div className='info' key={infoDetails.id}>  
                 <div className='infoDetails'>
@@ -51,12 +53,29 @@ const Contact = () => {
                 </div>
               </div>
               ))}
+              </div>
               {/*  */}
-              <div className='form-input'></div>
+              <div className='form-input'>
+                <form action="">
+                  <div>
+                  <input type="text" placeholder='Full Name'/>
+                  <input type="text" placeholder='Your email'/>
+                  </div>
+                  <div>
+                    <input type="text" placeholder='Phone number'/>
+                    <input type="text" placeholder='Budget'/>
+                  </div>
+                  <div className='text-area'>
+                    <textarea name="" id="" placeholder='Message'></textarea>
+                  </div>
+                  <div className='submit-btn'>
+                    <button>Submit Message</button>
+                  </div>
+                </form>
+              </div>
             </div>
         </div>
-      
-    </div>
+        </div>
   )
 }
 

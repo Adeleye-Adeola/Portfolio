@@ -5,6 +5,7 @@ import Clients from '../../Components/Clients/Clients'
 import MySkills from '../../Components/MySkills/MySkills'
 import Ratings from '../../Components/Ratings/Ratings'
 import Contact from '../../Components/Contact/Contact'
+import Footer from '../../Components/Footer/Footer'
 const LandingPage = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <MySkills/>
       <Ratings/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

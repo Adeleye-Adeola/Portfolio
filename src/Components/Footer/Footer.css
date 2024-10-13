@@ -1,0 +1,47 @@
+#footer {
+    margin-top: 3rem;
+}
+
+#footer .div-1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+#footer .div-1 div {
+        display: flex;
+        flex-direction: column;
+}
+
+#footer .div-1 img {
+    width: 94%;
+    height: 1px;
+}
+
+
+#footer .div-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 33.6vw);
+    align-items: center;
+    margin-left: 4rem;
+    font-weight: 400;
+    /* font-size: 1.3vw; */
+}
+
+#footer .div-2 .footerImg {
+    display: flex;
+    gap: 20px;
+}
+
+#footer .div-2 img {
+    width: 25px;
+}
+
+#footer .credit {
+    margin-left: -8vw;
+}
+
+#footer .designed {
+    font-size: 12px;
+    font-weight: 500;
+}
