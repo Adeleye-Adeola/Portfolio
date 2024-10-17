@@ -14,7 +14,6 @@
 
 #hero .hero-text {
     font-size: 3rem;
-    transition: all 2s;
     margin-top: -2rem;
     font-weight: 700;
 }
@@ -66,4 +65,44 @@
 
 #hero .social-accounts img {
     width: 15px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    #hero {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: -6vw;
+    }
+
+    #hero .hero-text{
+        font-size: 2.3rem;
+        height: 10.5rem;
+    }
+
+    #hero .i {
+        margin-top: -26px;
+    }
+
+    #hero .follow {
+        margin-left: -24.7rem;    
+}
+
+}
+ @media only screen and (min-width: 481px) and (max-width: 600px){
+    #hero {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 8vw;
+    }
+
+    #hero .hero-text{
+        font-size: 2.3rem;
+        height: 10.5rem;
+    }
+
+    #hero .i {
+        margin-top: -69px;
+    }
+
+
 }

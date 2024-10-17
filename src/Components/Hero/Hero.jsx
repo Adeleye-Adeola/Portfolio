@@ -41,7 +41,7 @@ const Hero = () => {
             <p className={`${current != 2 ? 'tex' : ''}`}>I create <span className='tran'>{text[2].title}</span></p>
             <p className={`${current !== 2 ? 'tex' : ''} const`}>Web Application</p>
         </div>
-        <div>
+        <div className='i'>
             <p>I am a professional web developer who creates exceptional and</p>
             <p>standout websites for my clients</p>
         </div>

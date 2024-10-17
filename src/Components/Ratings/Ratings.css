@@ -30,6 +30,7 @@
 #ratings .testimonials {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
     margin-left: 25px;
 }
 
@@ -37,6 +38,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    box-shadow: 2px 2px 2px 2px silver;
+    padding: 7px;
 }
 
 #ratings .shape img {
@@ -56,4 +59,44 @@
 #ratings .name {
     font-size: 12px;
     font-weight: 700;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+    #ratings {
+        margin-top: 30rem;
+        margin-left: -6vw;
+    }
+
+    #ratings .testimonials {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #ratings .testi-cont{
+        box-shadow: 2px 2px 2px 2px silver;
+        padding: 7px;
+        width: 90%;
+        margin-left: -5px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px){ 
+    #ratings {
+        margin-top: 30rem;
+        margin-left: 7vw;
+    }
+
+    #ratings .testimonials {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #ratings .testi-cont{
+        box-shadow: 2px 2px 2px 2px silver;
+        padding: 7px;
+        width: 90%;
+        margin-left: -25px;
+    }  
 }

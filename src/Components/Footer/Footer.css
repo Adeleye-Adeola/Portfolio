@@ -21,7 +21,7 @@
 
 #footer .div-2 {
     display: grid;
-    grid-template-columns: repeat(3, 33.6vw);
+    grid-template-columns: repeat(3, 67.6vw);
     align-items: center;
     margin-left: 4rem;
     font-weight: 400;
@@ -45,3 +45,49 @@
     font-size: 12px;
     font-weight: 500;
 }
+
+#footer .all {
+    display: flex;
+    width: 100%;
+    gap: 20vw;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+    #footer {
+        margin-left: -27vw;
+    }
+
+    #footer .div-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 18vw;
+    }
+
+    #footer .all {
+        gap: 7vw;
+    }
+
+    #footer .div-2 .footerImg {
+        margin-left: -52vw;
+    }
+
+    #footer .div-1 {
+        margin-left: 18vw;
+    }
+ }
+
+ @media only screen and (min-width: 481px) and (max-width: 768px){ 
+    #footer .div-1 {
+        margin-left: -5vw;
+        margin-bottom: 14px;
+    }
+
+    #footer .div-2 {
+        margin-left: -5vw;
+    }
+
+    #footer .all {
+        gap: 11vw;
+    }
+ }

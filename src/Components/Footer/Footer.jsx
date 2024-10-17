@@ -12,12 +12,13 @@ const Footer = () => {
                 </div>
             </div>
             <div className='div-2'>
-                <div>
-                    <p>@2024. All Right Reserved</p>
+                <div className='all'>
+                    <span>@2024. All Right Reserved</span>
+                    <span>Built by CrownDev</span>
                 </div>
-                <div className='credit'>
+                {/* <div className='credit'>
                     <p>Built by CrownDev</p>
-                </div>
+                </div> */}
                 <div className='footerImg'>
                     <img src="/f-facebook.png" alt="" />
                     <img src="/f-twitter.png" alt="" />

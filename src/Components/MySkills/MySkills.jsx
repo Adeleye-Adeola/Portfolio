@@ -15,7 +15,7 @@ const MySkills = () => {
                 </div>
                 <div className='why-2'>
                     <p>I am a web developer who creates efficient, stunning and high-</p>
-                    <p>quality websites using the follwoing technologies</p>
+                    <p className='text-a'>quality websites using the follwoing technologies</p>
                 </div>
                 <div>
                     <button>Hire Me</button>

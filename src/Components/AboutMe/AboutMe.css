@@ -1,0 +1,205 @@
+#about {
+    font-weight: 500;
+}
+
+#about .div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .div-1 h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#about .line {
+    margin-top: -25px;
+}
+#about .line img{
+    width: 95%;
+    height: 2px;
+}
+
+#about .vision {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 35vw);
+    gap: 8vw;
+    margin-left: 7rem;
+    position: relative;
+}
+
+#about .design-3 {
+    position: absolute;
+    left: 50%;
+    top: -12rem;
+}
+#about .design-3 img {
+    width: 40vw;
+}
+
+#about .vision .divs img {
+    width: 300px;
+}
+
+#about .vision .text {
+    margin-top: -1px;
+}
+#about .goal-section {
+    margin-top: 3rem;
+}
+#about .goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 2vw;
+}
+
+#about .goal img {
+    width: 120px;
+}
+
+
+#about .goals {
+    display: grid;
+    grid-template-columns: repeat(2, 39vw);
+    gap: 5vw;
+    margin-left: 7rem;
+    margin-top: 2rem;
+
+}
+
+#about .goals img {
+    width: 300px;
+}
+
+#about .youtube {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+
+#about .youtube img {
+    width: 18rem;
+}
+
+#about .view-channel {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 50px;
+ 
+}
+
+#about .tube-images .img-1 {
+    display: none;
+    width: 18rem;
+    cursor: pointer;
+  
+}
+
+.tube-images:hover .img-2 {
+    display: none;
+    cursor: pointer;
+}
+
+#about .tube-images:hover .img-1 {
+    display: block;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+
+    #about .div-1 h1 {
+        font-size: 2rem;
+    }
+    #about .line img {
+        width: 100vw;
+        height: 2px;
+        margin-left: -2rem;
+    }
+    #about .vision {
+        margin-left: -2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about  .div {
+        box-shadow: 2px 2px 2px 2px silver;
+        padding: 7px;
+        width: 95%;
+    }
+
+    #about  .text {
+        font-size: 13px;
+    }
+
+    #about .goals {
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        gap: 2rem;
+    }
+
+    #about .youtube {
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        margin-top: 2rem;
+    }
+
+    
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px){ 
+
+    #about .div-1 h1 {
+        font-size: 2rem;
+    }
+    #about .line img {
+        width: 100vw;
+        height: 2px;
+        margin-left: -2rem;
+    }
+    #about .vision {
+        margin-left: -2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about  .div {
+        box-shadow: 2px 2px 2px 2px silver;
+        padding: 7px;
+        width: 95%;
+    }
+
+    #about  .divs {
+        margin-left: 20vw;
+    }
+
+    #about  .text {
+        font-size: 13px;
+    }
+
+    #about .goals {
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        gap: 2rem;
+    }
+
+    #about .youtube {
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        margin-top: 2rem;
+    }
+
+    
+}

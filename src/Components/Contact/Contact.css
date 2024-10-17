@@ -116,3 +116,70 @@
     align-items: end;
     justify-content: end;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+    #contact {
+        margin-left: -2rem;
+    }
+    #contact .contactInfo {
+        flex-direction: column-reverse;
+    }
+
+    #contact .contactInfo .infoDiv{
+        margin-top: -1rem;
+    }
+
+    #contact form div input {
+        width: 36vw;
+        border: 2px solid silver;
+        outline: none;
+    }
+
+    #contact .text-2 P {
+        font-size: 15px;
+        margin-left: 1rem;
+    }
+    #contact .text-1 {
+        font-size: 1.8rem;
+    }
+
+    #contact .text-area textarea {
+        width: 83.2vw;
+        border: 2px solid silver;
+        outline: none;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px){ 
+    #contact {
+        margin-left: -2rem;
+    }
+    #contact .contactInfo {
+        flex-direction: column-reverse;
+    }
+
+    #contact .contactInfo .infoDiv{
+        margin-top: -1rem;
+    }
+
+    #contact form div input {
+        width: 36vw;
+        border: 2px solid silver;
+        outline: none;
+    }
+
+    #contact .text-2 P {
+        font-size: 15px;
+        margin-left: 1rem;
+    }
+    #contact .text-1 {
+        font-size: 1.8rem;
+    }
+
+    #contact .text-area textarea {
+        width: 83.2vw;
+        border: 2px solid silver;
+        outline: none;
+    }
+}

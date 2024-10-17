@@ -36,3 +36,43 @@
     width: 4.5vw;
 
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    #clients .num {
+        font-size: 1.7rem;
+    }    
+
+    #clients .generalCont{
+        margin-left: -1rem;
+        gap: 9vw;
+    }
+
+#clients .info {
+    font-size: 11px;
+    margin-left: -0.3rem;
+}
+
+#clients .design-2 {
+    left: 92%;
+}
+
+#clients .design-2 img {
+    width: 6vw;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px){
+    #clients .generalCont { 
+        gap: 8vw;
+        margin-left: 1rem;
+    }
+
+    #clients .num {
+        font-size: 1.7rem;
+    }
+
+    #clients .info {
+        font-size: 10px;
+        margin-left: 0;
+    }
+ }
