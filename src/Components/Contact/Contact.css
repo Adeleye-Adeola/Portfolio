@@ -120,7 +120,7 @@
 @media only screen and (min-width: 320px) and (max-width: 480px){ 
     #contact {
         margin-left: -2rem;
-        margin-top: 30rem;
+        margin-top: 34rem;
     }
     #contact .contactInfo {
         flex-direction: column-reverse;
@@ -155,7 +155,7 @@
 @media only screen and (min-width: 481px) and (max-width: 600px){ 
     #contact {
         margin-left: -2rem;
-        margin-top: 30rem;
+        margin-top: 33 rem;
     }
     #contact .contactInfo {
         flex-direction: column-reverse;
@@ -188,7 +188,7 @@
 
 
 
-@media only screen and (min-width: 601px) and (max-width: 768px){ 
+@media only screen and (min-width: 601px) and (max-width: 767px){ 
     #contact {
         margin-left: -2rem;
         margin-top: 35rem;
@@ -220,4 +220,12 @@
         border: 2px solid silver;
         outline: none;
     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px){ 
+    #contact {
+        margin-left: -6rem;
+        margin-top: 7rem;
+    }
+
 }
