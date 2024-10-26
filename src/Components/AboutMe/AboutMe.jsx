@@ -80,7 +80,7 @@ const AboutMe = () => {
                  Subscribe to stay updated and you won't regret joining this community of learners and innovators...
                  </p>
                  <div className='view-channel'>
-                        <button>View Channel</button>
+                        <button><a href="https://www.youtube.com/@CrownDeveloper" target='_blank'>View Channel</a></button>
                      </div>
         </div>
        </div>

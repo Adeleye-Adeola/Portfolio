@@ -51,7 +51,7 @@ const Hero = () => {
         <div className='group'>
             <div>
             <img src="/group2.png" alt="" className='img-1'/>
-            <img src="/I.png" alt="" className='img-2'/>
+            <img src="/I.png" alt="My Picture" className='img-2'/>
             </div>
             <div className='follow'>
                 <img src="/follow.png" alt="" className='follow-img' />
