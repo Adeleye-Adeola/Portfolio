@@ -13,8 +13,10 @@ const LandingPage = () => {
       <Hero/>
       <Clients/>
       <MySkills/>
-      <Ratings/>
       <Contact/>
+      <div id='rate-sec'>
+      <Ratings/>
+      </div>
       <Footer/>
     </div>
   )

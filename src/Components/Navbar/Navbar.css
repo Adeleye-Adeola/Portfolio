@@ -36,12 +36,18 @@
     display: flex;
     align-items: start;
     justify-content: end;
-    width: 100px;
+    width: 300px;
     margin-right: 5vw;
 }
 
 #navbar .nav-btn button {
-    width: 200px;
+    width: 140px;
+    padding: 17px 20px 17px 20px;
+    background: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 #navbar .design img {
@@ -53,4 +59,9 @@
 #navbar .design{
     position: absolute;
     z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

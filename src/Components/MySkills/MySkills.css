@@ -76,6 +76,59 @@
     transform: scale(0.9);
 }
 
+
+#mySkills .tag-1 {
+    position: absolute;
+    top: 74px;  
+    font-size: 22px;
+ }
+
+ #mySkills .tag-2 {
+    position: absolute;
+    top: 74px;  
+    font-size: 22px;
+ }
+
+ #mySkills .tag-3 {
+    position: absolute;
+    top: 74px;  
+    font-size: 22px;
+ }
+
+ #mySkills .tag-4 {
+    position: absolute;
+    top: 74px;  
+    font-size: 22px;
+ }
+
+ #mySkills .tag-5 {
+    position: absolute;
+    top: 74px;  
+    font-size: 22px;
+ }
+
+ #mySkills .tag-6 {
+    position: absolute;
+    top: 74px;  
+    font-size: 22px;
+ }
+
+ #mySkills .tag {
+    display: none;
+ }
+
+ #mySkills p {
+    transition: all 5s;
+ }
+
+ #mySkills .skills-display:hover .tag{
+    display: block;
+ }
+
+ #mySkills .skills-display div:hover .tag {
+    display: block;
+ }
+
 @media only screen and (min-width: 320px) and (max-width: 480px){ 
 
     #mySkills {
