@@ -106,3 +106,34 @@
 
 
 }
+/* 600 above */
+@media only screen and (min-width: 601px) and (max-width: 768px){
+#hero .group .img-1 {
+    width: 300px;
+}
+
+
+#hero .img-2 {
+    width: 16rem;
+}
+
+#hero .hero-text {
+    font-size: 2rem;
+    height: 10rem;
+}
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 769px){
+    #hero .i {
+        margin-top: -3rem;
+    }   
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px){
+    
+    #hero .hero-text {
+        font-size: 2rem;
+    }
+    
+    }

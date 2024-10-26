@@ -186,6 +186,10 @@
     /* left: 16rem; */
     left: 70vw;
 }
+
+#mySkills .tag {
+    display: block;
+ }
 }
 
 
@@ -248,6 +252,81 @@
 
 #mySkills .skills-display {
     margin-top: -8rem;
+    margin-left: -8vw;
+}
+#mySkills .tag {
+    display: block;
+ }
+ }
+
+
+ @media only screen and (min-width: 601px) and (max-width: 768px){
+    #mySkills {
+        margin-left: -8vw;
+        margin-top: 1rem;
+    }
+#mySkills .generalCont {
+    display: flex;
+    flex-direction: column;
+}
+
+#mySkills .why-2 {
+    margin-top: -16px;
+}
+
+#mySkills .text-a {
+    margin-top: -5px;
+}
+
+#mySkills .why {
+    font-size: 1.5rem;
+}
+
+#mySkills .skills-display div img {
+    width: 59px;
+}
+
+#mySkills  .img-1 {
+    position: absolute;
+    left: 38vw;
+    top: 1px; 
+}
+
+#mySkills .img-2  {
+    /* left: 1rem; */
+    left: 12vw;
+}
+
+#mySkills .img-3 {
+    /* left: 1rem; */
+    left: 12vw;
+}
+
+#mySkills .img-4 {
+    top: 25rem;
+    left: 38vw;
+}
+
+
+#mySkills .img-5 {
+    /* left: 16rem; */
+    left: 59vw;
+}
+#mySkills .img-6 {
+    /* left: 16rem; */
+    left: 59vw;
+}
+
+#mySkills .skills-display {
+    margin-top: -8rem;
     margin-left: 7vw;
 }
+
+#mySkills .tag {
+    display: block;
+ }
+
+ #mySkills .div-1 {
+    margin-left: 6vw;
+ }
  }
