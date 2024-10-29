@@ -13,7 +13,9 @@ const LandingPage = () => {
       <Hero/>
       <Clients/>
       <MySkills/>
+      <div id='contact-sec'>
       <Contact/>
+      </div>
       <div id='rate-sec'>
       <Ratings/>
       </div>

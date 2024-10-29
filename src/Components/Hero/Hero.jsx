@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Hero.css"
+import { HashLink } from 'react-router-hash-link'
 
 const Hero = () => {
     const text = [
@@ -45,7 +46,15 @@ const Hero = () => {
             <p>I am a professional web developer who creates exceptional and</p>
             <p>standout websites for my clients</p>
         </div>
-        <div></div> 
+        <div className='quick-contact'>
+            <div className='imgs-1 img'><a href=""><img src="/call.png" alt="" /></a></div>
+            <div className='imgs-2 img'><a href=""><img src="/email.png" alt="" /></a></div>
+            <div className='imgs-3 img'><a href=""><img src="/message.png" alt="" /></a></div>
+            <div className='quick-contact-btn'>
+                <HashLink smooth to = "/#contact-sec"><button className='quick-btn'>Contact Me</button></HashLink>
+            </div>
+            </div> 
+       
         </div>
 
         <div className='group'>

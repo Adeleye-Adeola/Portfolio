@@ -129,6 +129,19 @@
     display: block;
  }
 
+ #mySkills .hire-btn {
+    width: 125px;
+    padding: 15px 10px 15px 10px;
+    background:  var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    top: 30px;
+    margin: 0;
+ }
+
 @media only screen and (min-width: 320px) and (max-width: 480px){ 
 
     #mySkills {

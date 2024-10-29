@@ -70,7 +70,7 @@ const AboutMe = () => {
 
        <div className='youtube'>
         <div className='tube-images'>
-            <img src="/youtube.png" alt="" className='img-1'/>
+            <img src="/youtube.png" alt="YOUTUBE LOGO" className='img-1'/>
             <img src="/youtube-black.png" alt="" className='img-2'/>
         </div>
         <div>

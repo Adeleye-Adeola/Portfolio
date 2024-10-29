@@ -18,27 +18,27 @@ const MySkills = () => {
                     <p className='text-a'>quality websites using the follwoing technologies</p>
                 </div>
                 <div>
-                    <button>Hire Me</button>
+                    <button className='hire-btn'>Hire Me</button>
                 </div>
             </div>
             {/* Div 2 */}
             <div className='skills-display'>
-                <div className="tech img-1"><img src="/html.png" alt="" />
+                <div className="tech img-1"><img src="/html.png" alt="HTML" />
                 <p className='tag-1 tag'>HTML5</p>
                 </div>
-                <div className="tech img-2"><img src="/js.png" alt="" />
+                <div className="tech img-2"><img src="/js.png" alt="JAVASCRIPT" />
                 <p className='tag-2 tag'>JAVASCRIPT</p>
-                </div>
-                <div className="tech img-3"><img src="/css.png" alt="" />
+                </div>  
+                <div className="tech img-3"><img src="/css.png" alt="CSS3" />
                 <p className='tag-3 tag'>CSS3</p>
                 </div>
-                <div className="tech img-4"><img src="/django.png" alt="" />
+                <div className="tech img-4"><img src="/django.png" alt="DJANGO" />
                 <p className='tag-4 tag'>DJANGO</p>
                 </div>
-                <div className="tech img-5"><img src="/bootstrap.png" alt="" />
+                <div className="tech img-5"><img src="/bootstrap.png" alt="BOOTSTRAP" />
                 <p className='tag-5 tag'>BOOTSTRAP</p>
                 </div>
-                <div className="tech img-6"><img src="/react.png" alt="" />
+                <div className="tech img-6"><img src="/react.png" alt="REACT" />
                 <p className='tag-6 tag'>REACT</p>
                 </div>
             </div>

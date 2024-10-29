@@ -51,7 +51,7 @@
 }
 
 #navbar .design img {
-    width: 25rem;
+    width: 30rem;
     margin-top: 0rem;
     margin-left: -3.4rem;
 }
@@ -64,4 +64,49 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+
+@media only screen and (max-width: 1000px){
+
+#navbar .nav-ul {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    background: rgb(0, 0, 0, 0.7);
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    
+}
+
+#navbar .nav-ul ul {
+    flex-direction: column;
+    gap: 4rem;
+    color: white;
+    
+}
+
+#navbar .nav-ul li a, #navbar .nav-ul li {
+    color: white;
+    font-size: 32px;
+}
+
+#navbar .nav-btn {
+    align-items: start;
+    justify-content: center;
+    margin-right: 0;
+    width:  100%;
+    position: absolute;
+    color: white;
+    z-index: 103;
+    top: 155vw;
+    left: 0vw;
+}
+
+#navbar .nav-btn button {
+    color: white;
+}
 }
