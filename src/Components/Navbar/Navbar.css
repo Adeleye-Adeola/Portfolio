@@ -1,6 +1,8 @@
 #navbar .nav {
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 #navbar .logo {
     display: flex;
@@ -52,13 +54,14 @@
 
 #navbar .design img {
     width: 30rem;
-    margin-top: 0rem;
-    margin-left: -3.4rem;
+
 }
 
 #navbar .design{
     position: absolute;
     z-index: -1;
+    margin-top: 0rem;
+    left: -4.1rem;   
 }
 
 a {
@@ -69,7 +72,9 @@ a {
 
 @media only screen and (max-width: 1000px){
 
-#navbar .nav-ul {
+#navbar .nav-ul  {
+    position: relative;
+    width: 100%;
     flex-direction: column;
     position: absolute;
     top: 0;
@@ -79,14 +84,17 @@ a {
     height: 100vh;
     margin: 0;
     width: 100%;
-    
 }
+
+#navbar .design{
+    left: -70vw;   
+}
+
 
 #navbar .nav-ul ul {
     flex-direction: column;
     gap: 4rem;
-    color: white;
-    
+    color: white;   
 }
 
 #navbar .nav-ul li a, #navbar .nav-ul li {

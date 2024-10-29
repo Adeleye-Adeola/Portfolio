@@ -20,10 +20,10 @@ const Footer = () => {
                     <p>Built by CrownDev</p>
                 </div> */}
                 <div className='footerImg'>
-                    <img src="/f-facebook.png" alt="" />
-                    <img src="/f-twitter.png" alt="" />
-                    <img src="/f-linkedin.png" alt="" />
-                    <img src="/f-instagram.png" alt="" />
+                    <a href="#"><img src="/f-facebook.png" alt="" /></a>
+                    <a href="#"><img src="/f-twitter.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/adeleye-erioluwa-218254323/" target='_blank'><img src="/f-linkedin.png" alt="" /></a>
+                    <a href="#"><img src="/f-instagram.png" alt="" /></a>
                 </div>
             </div>
         </div>

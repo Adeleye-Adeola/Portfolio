@@ -67,7 +67,7 @@ const Hero = () => {
                 <div className='social-accounts'>
                     <img src="/facebook.png" alt="" />
                     <img src="/instagram.png" alt="" />
-                    <img src="/linkedin.png" alt="" />
+                    <a href="https://www.linkedin.com/in/adeleye-erioluwa-218254323/" target='_blank'><img src="/linkedin.png" alt="" /></a>
                 </div>
             </div>
         </div>
