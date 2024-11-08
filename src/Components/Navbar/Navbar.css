@@ -3,6 +3,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 #navbar .logo {
     display: flex;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 2s;
 }
 
 #navbar .nav-ul ul{
@@ -39,7 +41,7 @@
     align-items: start;
     justify-content: end;
     width: 300px;
-    margin-right: 5vw;
+    margin-right: 24vw;
 }
 
 #navbar .nav-btn button {
@@ -69,9 +71,36 @@ a {
     color: black;
 }
 
+#navbar .bars {
+    position: absolute;
+    top: 0;
+    left: 84vw;
+    display: none;
+}
+
+#navbar .bars  i {
+    font-size: 30px;
+    color: black;
+}
+
+#navbar #true {
+    margin-left: 0;
+}
+
+#navbar #false {
+    margin-left: 0;
+}
+
+
 
 @media only screen and (max-width: 1000px){
+    #navbar {
+        padding: 0;
+    }
 
+    #navbar .nav {
+        display: block;
+    }
 #navbar .nav-ul  {
     position: relative;
     width: 100%;
@@ -80,7 +109,7 @@ a {
     top: 0;
     left: 0;
     z-index: 19;
-    background: rgb(0, 0, 0, 0.7);
+    background: rgb(0, 0, 0, 0.8);
     height: 100vh;
     margin: 0;
     width: 100%;
@@ -90,31 +119,48 @@ a {
     left: -70vw;   
 }
 
+#navbar .bars {
+    position: absolute;
+    top: 0;
+    left: 90vw;
+    display: block;
+}
 
 #navbar .nav-ul ul {
     flex-direction: column;
     gap: 4rem;
-    color: white;   
+    color: white; 
+    margin-top: -9rem;
 }
 
 #navbar .nav-ul li a, #navbar .nav-ul li {
     color: white;
     font-size: 32px;
+    font-weight: 700;
 }
 
 #navbar .nav-btn {
     align-items: start;
     justify-content: center;
     margin-right: 0;
-    width:  100%;
+    width: 100%;
     position: absolute;
     color: white;
     z-index: 103;
-    top: 155vw;
+    top: 140vw;
     left: 0vw;
+
 }
 
 #navbar .nav-btn button {
     color: white;
+}
+
+#navbar #true {
+    margin-left: 0;
+}
+
+#navbar #false {
+    margin-left: 100%;
 }
 }
