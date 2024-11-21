@@ -24,7 +24,7 @@ const MySkills = () => {
                 <div data-aos = "fade-up" 
          data-aos-easing="ease-in-out" 
          data-aos-delay="200"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
           data-aos-once = 'true'>
                     <button className='hire-btn'>Hire Me</button>
                 </div>
