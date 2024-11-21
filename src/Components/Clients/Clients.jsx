@@ -4,7 +4,10 @@ import "./Clients.css"
 const Clients = () => {
   return (
     <div className='container' id='clients'>
-      <div className='generalCont'>
+      <div className='generalCont' data-aos = "fade-up" 
+         data-aos-easing="ease-in-out" 
+         data-aos-delay="200"
+          data-aos-duration="1000">
 
       <div className='div-1'>
      <p className='num'>90+</p>

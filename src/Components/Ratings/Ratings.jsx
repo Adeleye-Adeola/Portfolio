@@ -40,7 +40,11 @@ const Ratings = () => {
   ]
   return (
     <div className='container' id='ratings'>
-      <div className='generalCont'>
+      <div className='generalCont' data-aos = "flip-down" 
+         data-aos-easing="ease-in-out" 
+         data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-once = 'true'>
         <div className='review-img'>
             <img src="/review-img.png" alt="" />
             <div className='text'>

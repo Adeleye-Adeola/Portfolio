@@ -4,7 +4,11 @@ import "./MySkills.css"
 const MySkills = () => {
   return (
     <div className='container' id='mySkills'>
-        <div className='generalCont'>
+        <div className='generalCont' data-aos = "fade-up" 
+         data-aos-easing="ease-in-out" 
+         data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-once = 'true'>
             <div className='div-1'>
                 <div className='skills-img'>
                     <img src="/myskills.png" alt="" />
@@ -17,12 +21,16 @@ const MySkills = () => {
                     <p>I am a web developer who creates efficient, stunning and high-</p>
                     <p className='text-a'>quality websites using the follwoing technologies</p>
                 </div>
-                <div>
+                <div data-aos = "fade-up" 
+         data-aos-easing="ease-in-out" 
+         data-aos-delay="200"
+          data-aos-duration="3000"
+          data-aos-once = 'true'>
                     <button className='hire-btn'>Hire Me</button>
                 </div>
             </div>
             {/* Div 2 */}
-            <div className='skills-display'>
+            <div className='skills-display' >
                 <div className="tech img-1"><img src="/html.png" alt="HTML" />
                 <p className='tag-1 tag'>HTML5</p>
                 </div>

@@ -31,7 +31,10 @@ const Hero = () => {
         return () => clearInterval(interval)
     }, [text.length])
   return (
-    <div className='container' id='hero'>
+    <div className='container' id='hero' data-aos = "fade-right" 
+    data-aos-easing="ease-in-out" 
+    data-aos-delay="200"
+     data-aos-duration="2000">
         <div>
         <div className='welcome'>
             <img src="/welcome.png" alt="" />
@@ -50,7 +53,10 @@ const Hero = () => {
             <div className='imgs-1 img'><a href=""><img src="/call.png" alt="" /></a></div>
             <div className='imgs-2 img'><a href=""><img src="/email.png" alt="" /></a></div>
             <div className='imgs-3 img'><a href=""><img src="/message.png" alt="" /></a></div>
-            <div className='quick-contact-btn'>
+            <div className='quick-contact-btn' data-aos = "fade-up" 
+         data-aos-easing="ease-in-out" 
+         data-aos-delay="200"
+          data-aos-duration="3000">
                 <HashLink smooth to = "/#contact-sec"><button className='quick-btn'>Contact Me</button></HashLink>
             </div>
             </div> 
@@ -62,7 +68,11 @@ const Hero = () => {
             <img src="/group2.png" alt="" className='img-1'/>
             <img src="/I.png" alt="My Picture" className='img-2'/>
             </div>
-            <div className='follow'>
+            <div className='follow' data-aos = "fade-down" 
+         data-aos-easing="ease-in-out" 
+         data-aos-delay="200"
+          data-aos-duration="2000"
+          data-aos-once = 'true'>
                 <img src="/follow.png" alt="" className='follow-img' />
                 <div className='social-accounts'>
                     <img src="/facebook.png" alt="" />
